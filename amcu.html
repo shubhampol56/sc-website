@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AMCU listing items</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!--  Nav on Single page js code     -->
+<script type="text/javascript">
+$(document).ready(function() {
+  
+  var scrollLink = $('.scroll');
+  
+  // Smooth scrolling
+  scrollLink.click(function(e) {
+    e.preventDefault();
+    $('body,html').animate({
+      scrollTop: $(this.hash).offset().top
+    }, 1000 );
+  });
+  
+  // Active link switching
+  $(window).scroll(function() {
+    var scrollbarLocation = $(this).scrollTop();
+    
+    scrollLink.each(function() {
+      
+      var sectionOffset = $(this.hash).offset().top - 20;
+      
+      if ( sectionOffset <= scrollbarLocation ) {
+        $(this).parent().addClass('active');
+        $(this).parent().siblings().removeClass('active');
+      }
+    })
+    
+  })
+  
+})
+
+</script>
+
+
+<!-- End -->
+
+
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="scimg/logo.jpg"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="aboutus.html">About Us</a>
+				</li>
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target">Products
+						<span class="caret"></span></a>
+					<div class="dropdown-menu" aria-labelledby="dropdown_target">
+							<a class="dropdown-item" href="amcu.html">AMCU & Analyzers</a>
+							<a class="dropdown-item" href="milkandfarm.html">Milking & Farming Machines</a>
+							<a class="dropdown-item" href="#">Software</a>
+							<a class="dropdown-item" href="other.html">Other</a>
+						</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="team.html">Team</a>
+				</li>
+			</ul>
+	</div>
+</div>
+</nav>
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-3">
+			<div id="left">
+			<h2>ABSTRACT VIEW</h2>
+			<hr class="light">
+			<div class="a">
+
+							<a class="dropdown-item scroll" href="#ekomilk">Ekomilk Ultra MB</a>
+							<a class="dropdown-item scroll" href="#ekomilkr">Ekomilk Ultra MB with <br>remote display</a>
+							<a class="dropdown-item scroll" href="#DPS">Ekomilk Ultra MB with DPS</a>
+							<a class="dropdown-item scroll" href="#Desktop">Desktop System</a>
+							<a class="dropdown-item scroll" href="#bond">Eko Bond</a>
+
+</div>
+	
+
+		</div>
+	</div>
+	
+	<!-- Start -->
+		<div class="col-md-4">
+			<section id="ekomilk">
+			<img src="scimg/AMCU/ekomilk ultra.jpg" class="img-fluid">
+			</section>
+			</div>
+		<div class="col-md-4">
+			
+			<h1>Ekomilk Ultra MB</h1>
+
+			<p>You can simultaneously analyze Fat and SNF accurately and swiftly with the Ultra MB milk analyzer. With a measurement time of less than 40 seconds, it is not only fast but also economical to use, easy to maintain and suitable for cow/buffalo/mixed milk analysis. It comes with a digital display and printer ports for your convenience and reporting needs. 
+</p>
+
+			<br>
+
+		</div>
+		<div class="col-md-3"></div>
+		<div class="col-md-4">
+		<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Parameter</th>
+      <th scope="col">Range</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">FAT</th>
+      <td>0-15%</td>
+
+    </tr>
+    <tr>
+      <th scope="row">SNF</th>
+      <td>0-15%</td>
+
+    </tr>
+    <tr>
+      <th scope="row">CLR</th>
+      <td>0-40</td>
+
+    </tr>
+        <tr>
+      <th scope="row">Added Water</th>
+      <td>0-100%</td>
+
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="col-md-4">
+	<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Parameter</th>
+      <th scope="col">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Power Supply</th>
+      <td>220 Volts AC, ± 5% / 12 Volt DC</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Dimensions</th>
+      <td>95 X 300 X 250 mm</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Weight</th>
+      <td>3.0 Kgs</td>
+
+    </tr>
+        <tr>
+      <th scope="row">Ports</th>
+      <td>RS 232 Serial</td>
+
+    </tr>
+  </tbody>
+</table>
+</div>
+<!-- end -->
+		<div class="col-md-3">
+			
+		</div>
+
+<!-- Start -->
+		<div class="col-md-4">
+			<section id="ekomilkr">
+			<img src="scimg/AMCU/4.jpg" class="img-fluid">
+			</section>
+			</div>
+		<div class="col-md-4">
+			
+			<h1>Ekomilk Ultra MB with remote display and stirrer</h1>
+
+			<p>Integrated system which includes Ekomilk Ultra MB to simultaneously analyze Fat and SNF accurately and swiftly with a measurement time of less than 40 seconds,stirrer for better and accurate analysis of milk and a remote display which displays parameters like FAT,SNF,Density and added Water.  
+</p>
+
+			<br>
+
+		</div>
+		<div class="col-md-3"></div>
+		<div class="col-md-4">
+		<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Parameter</th>
+      <th scope="col">Range</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">FAT</th>
+      <td>0-15%</td>
+
+    </tr>
+    <tr>
+      <th scope="row">SNF</th>
+      <td>0-15%</td>
+
+    </tr>
+    <tr>
+      <th scope="row">CLR</th>
+      <td>0-40</td>
+
+    </tr>
+        <tr>
+      <th scope="row">Added Water</th>
+      <td>0-100%</td>
+
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="col-md-4">
+	<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Parameter</th>
+      <th scope="col">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Power Supply</th>
+      <td>220 Volts AC, ± 5% / 12 Volt DC</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Dimensions</th>
+      <td>95 X 300 X 250 mm</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Weight</th>
+      <td>3.0 Kgs</td>
+
+    </tr>
+        <tr>
+      <th scope="row">Ports</th>
+      <td>RS 232 Serial</td>
+
+    </tr>
+  </tbody>
+</table>
+</div>
+<!-- end -->
+<div class="col-md-3"></div>
+
+		<div class="col-md-4">
+			<section id="DPS">
+			<img src="scimg/AMCU/Ekomilk_with_DPS.jpg" class="img-fluid">
+			</section>
+			</div>
+		<div class="col-md-4" >
+			<h1>Ekomilk Ultra MB with DPS</h1>
+			<p>Like the Ultra MB analyzer, this unit offers simultaneous Fat and SNF testing with a high degree of accuracy and swiftness. It also adds data processing and reporting to its capabilities and is extremely convenient and helpful in maintaining and collecting data records as needed. With multiple USB ports, printer ports and a larger memory, this unit helps in data processing and data collection as required. Not only that, electronic transfer of the data records becomes easier and swifter.  
+</p>
+			<br>
+		</div>
+
+<div class="col-md-3"></div>
+		<div class="col-md-4">
+		<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Parameter</th>
+      <th scope="col">Range</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">FAT</th>
+      <td>0-15%</td>
+
+    </tr>
+    <tr>
+      <th scope="row">SNF</th>
+      <td>0-15%</td>
+
+    </tr>
+    <tr>
+      <th scope="row">CLR</th>
+      <td>0-40</td>
+
+    </tr>
+        <tr>
+      <th scope="row">Added Water</th>
+      <td>0-100%</td>
+
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="col-md-4">
+	<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Parameter</th>
+      <th scope="col">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Power Supply</th>
+      <td>220 Volts AC, ± 5% / 12 Volt DC</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Dimensions</th>
+      <td>95 X 300 X 250 mm</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Weight</th>
+      <td>3.0 Kgs</td>
+
+    </tr>
+        <tr>
+      <th scope="row">Ports</th>
+      <td>4 X USB, 2 X RS 232 Serial</td>
+
+    </tr>
+  </tbody>
+</table>
+</div>	
+<div class="col-md-3">
+			
+		</div>	
+
+	<div class="col-md-4">
+			<section id="Desktop">
+			<img src="scimg/AMCU/Desktop_System.jpg" class="img-fluid">
+			</section>
+			</div>
+		<div class="col-md-4">
+			
+			<h1>Desktop System</h1>
+
+			<p>Desktop system is the assembly of all the required and sufficient components required for automatic milk collection unit.
+				<br>
+				Components included are as follows:
+				<br><h5>-Computer System:</h5>Consisting of CPU,Monitor,Speakers,Printer.
+				<br><h5>-Battery</h5>
+				<h5>-Inverter</h5>
+				<h5>-Weighing Scale</h5>
+				<h5>-Milk Analyzer</h5>
+				<h5>-Stirrer</h5>
+				<h5>-Remote Display</h5>
+				<h5>-Analyzer Display</h5>
+
+				Components can be added or removed as per the customer requirements.
+
+</p>
+</div>
+
+
+<div class="col-md-3">
+			
+		</div>	
+
+	<!-- Start -->
+		<div class="col-md-4">
+			<section id="bond">
+			<img src="scimg/AMCU/bond.png" class="img-fluid">
+			</section>
+			</div>
+		<div class="col-md-4">
+			
+			<h1>Eko Bond </h1>
+
+			<p>Eko Bond is our low-cost solution for milk collection centres in the rural areas and at the village level. It integrates five different modules to provide a total solution based on ultrasonic analyzers, data processing, integrated printing and mobile telecom services like GPS and GPRS. With this unit comes the convenience of electronic data processing and transfers to and from remote locations. With this integrated solution, remote management of multiple collection centres and analyzers can be done easily. Data management under various categories like rate and price management, collection and analysis of accrued data, data on individual or group of vendors, quantum of milk collection can all be remotely administered and inspected with the data at your fingertips in real-time. What is more, real-time updates or upgrades of software can be done easily and remotely too. 
+</p>
+
+			<br>
+
+		</div>
+		<div class="col-md-3"></div>
+		<div class="col-md-4">
+		<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Parameter</th>
+      <th scope="col">Range</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">FAT</th>
+      <td>0-15%</td>
+
+    </tr>
+    <tr>
+      <th scope="row">SNF</th>
+      <td>0-15%</td>
+
+    </tr>
+    <tr>
+      <th scope="row">CLR</th>
+      <td>0-40</td>
+
+    </tr>
+        <tr>
+      <th scope="row">Added Water</th>
+      <td>0-100%</td>
+
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="col-md-4">
+		<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Parameter</th>
+      <th scope="col">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Repeatability	</th>
+      <td>	+ 0.05%</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Measurement Cycle</th>
+      <td>	40 sec</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Sample Volume</th>
+      <td>	20 ml</td>
+
+    </tr>
+  </tbody>
+</table>
+</div>
+<div class="col-md-3"></div>
+<div class="col-md-6">
+	<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Parameter</th>
+      <th scope="col">Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Power Supply</th>
+      <td>220 Volts AC, ± 5% / 12 Volt DC</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Data Processing Unit</th>
+      <td>	Processor : 32bit Stellaris Micro Controller <br>
+Speed : 80Mhz <br>
+RAM : 96KB <br>
+Memory : 2GB</td>
+
+    </tr>
+    <tr>
+      <th scope="row">INPUT / OUTPUT</th>
+      <td>	RS 232 - Weighing Balance, USB-IBM Keyboard, USB - Pen Drive, <br>RS 232 - Remote Display Unit / Serial Printer/PC, USB - Pen Drive, USB-Printer</td>
+
+    </tr>
+        <tr>
+      <th scope="row">GSM / GPRS (Optional)</th>
+      <td>Email / SMS / FTP / Remote Management</td>
+
+    </tr>
+  </tbody>
+</table>
+</div>
+<!-- end -->
+</div>
+
+
+<!--- Footer -->
+<footer>
+  <div class="container-fluid padding">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="scimg/logor.jpg">
+        <hr class="light">
+        <p>9850910105</p>
+        <p>info@sgworld.co.in</p>
+        <p> Masur, Maharashtra 415106</p> 
+      </div>
+      <div class="col-md-4">
+        <hr class="light">
+        <h5>Working hours</h5>
+        <hr class="light">
+        <p>Monday-Saturday</p>
+        <p> 10am-6pm</p>
+        <p>Sunday</p>
+        <p> CLOSED</p>
+      </div>
+      <div class="col-md-4">
+        <hr class="light">
+        <h5>Service Area</h5>
+        <hr class="light">
+        <p>Karad</p>
+        <p>Nagar</p>
+        <p>Pune</p> 
+        <p>Nagpur</p>
+        <p>Satara</p>
+      </div>
+      <div class="col-12">
+        <hr class="light">
+        <h5>&copy; sgworld.co.in</h5> 
+      </div> 
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

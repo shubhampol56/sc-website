@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+.container
+{
+	margin-top: 100px;
+}
+
+
+.navbar {
+  padding: .8rem;
+}
+
+.spacer {
+    background-color: tomato;
+    margin: 20px 5px;
+}
+
+.features {
+  @include section-padding;
+  background: $dark;
+  color: white;
+}
+
+.hero {
+  padding: 20vh 0;
+  background: linear-gradient(to right, $secondary, $accent);
+}
+
+.navbar-brand img {
+  height: 2.5rem;
+}
+.nav-item:hover .nav-item-hide {
+  display: block;
+}
+
+.nav-item-hide {
+  display: none;
+
+}
+  
+.navbar-nav li {
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+#left
+{
+	background-color: rgb(211,211,211);
+}
